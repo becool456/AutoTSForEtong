@@ -1,0 +1,37 @@
+﻿<script>
+    jQuery(document).ready(function () {
+        jQuery("#loginID").validationEngine();
+    });
+
+</script>
+
+@model AutoTSForEtong.ViewModel.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+}
+
+
+<form action="/User/LoginPost" method="post" name="login" id="loginID">
+    <div style="position: relative; padding: 38px 38px 267px; margin-bottom: 77px;">
+        <div style="min-height: 473px; padding: 123px 199px 33px 306px; background-color: white;">
+            <div class="login-icon">
+                <img src="Images/Paper.png" alt="Welcome to AutoTSForETong" />
+                <h4>Welcome to <small>  AutoTS</small></h4>
+            </div>
+
+            <div class="login-form">
+                <div class="form-group">
+                    <input type="text" class="form-control login-field" value="" placeholder="Enter your name" id="LoginName" name="LoginName" data-validation-engine="validate[required]" />
+                </div>
+
+                <div class="form-group">
+                    <input type="password" class="form-control login-field" value="" placeholder="Password" id="LoginPassWord" name="LoginPassWord" data-validation-engine="validate[required]" />
+                </div>
+                @Html.Partial("_ErrorMessage")
+                <input class="btn btn-primary btn-lg btn-block" type="submit" value="Log In" style="background-color: #1abc9c; border-color: #1abc9c; " />
+            </div>
+        </div>
+    </div>
+</form>
+
+

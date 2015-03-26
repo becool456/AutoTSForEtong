@@ -1,0 +1,119 @@
+﻿<style>
+    .fontClass{
+        font-weight:bold;
+    }
+
+</style>
+<script language="javascript">
+    function deleteConfirm() {
+        if (!confirm("确认删除？")) {
+            window.event.returnValue = false;
+        } else {
+            window.event.returnValue = true;
+        }
+    }
+</script>
+@model AutoTSForETongModel.Exampaper
+
+@{
+    ViewBag.Title = "编辑试卷";
+}
+
+<div style="font-family:'Microsoft YaHei'">
+    <h4>试卷详情</h4>
+
+    <div>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                <label class="col-md-1 fontClass">出卷人</label>
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Member.MemberName)
+            </dd>
+
+            <dt>
+                <label class="col-md-1 fontClass">科目名称</label>
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Subject.SubjectName)
+            </dd>
+
+            <dt>
+                <label class="col-md-1 fontClass">试卷标题</label>
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PaperTitle)
+            </dd>
+
+            <dt>
+                <label class="col-md-1 fontClass">更新时间</label>
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.UpdateTime)
+            </dd>
+            <dt>
+                <label class="col-md-1 fontClass">考试时长</label>
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.ExamTime) min
+            </dd>
+        </dl>
+        @*<h4>@Html.ActionLink("添加新试题", "PreViewQuestion", new { subjectID = Model.SubjectID, isNewPaper = true })</h4>*@
+        <a href="/Exampapers/PreViewQuestion?subjectID=@Model.SubjectID&amp;isNewPaper=True" class="col-md-4">添加新试题</a><br />
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.ExamTime, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <label>@Model.ExamTime 分钟</label>
+                @Html.ValidationMessageFor(model => model.ExamTime, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+        <div>
+            @{
+                int j = 1;
+                foreach (var type in Model.PaperExtraInfo)
+                {
+                    int i = 1;
+                    <span>@j.ToString() .</span>
+                    j++;
+                    <span class="fontClass">@type.QuestionTypeTitle (每条：@type.QuestionTypeGrade 分)</span><br />
+                    foreach (var item in Model.Questions.Where(o => o.QuestionType == type.QuestionType))
+                    {
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;( @i.ToString() ). @Html.Raw(item.Content)</p>
+                        if (item.QuestionType == "解答题")
+                        {
+                            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【答   题】：<textarea> </textarea></div>
+                        }
+                        else
+                        {
+                            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【<span style="font-size:medium">答&nbsp;&nbsp;&nbsp;&nbsp;案</span>】：____________</div>
+                        }
+
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【<span style="font-size:medium">参考答案</span>】：<span style="color: #C0392B">@item.Answer</span></div>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><a href="/Exampapers/RemoveQuestion?questionID=@item.QuestionID&amp;isNewPaper=True" class="btn btn-inverse" onclick="deleteConfirm()">删除</a>
+                        <br />
+                        <br />
+                        i++;
+
+                    }
+                    i = 1;
+
+                }
+            }
+
+
+        </div>
+
+
+
+    </div>
+    <p style="font-family:'Microsoft YaHei'">
+        @Html.ActionLink("保存为新试卷", "SaveAsPaper") &nbsp; &nbsp; @Html.ActionLink("保存到本地", "SaveToLocal") &nbsp; &nbsp;  @Html.ActionLink("返回", "Index")
+    </p>
+
+</div>

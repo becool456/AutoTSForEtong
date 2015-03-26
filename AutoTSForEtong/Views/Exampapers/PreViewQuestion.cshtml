@@ -1,0 +1,57 @@
+﻿<style>
+    .tdClass1{
+        width:730px;
+    }
+    .tdClass2{
+        width:70px;
+    }
+
+</style>
+
+@model IEnumerable<AutoTSForETongModel.Question>
+
+@{
+    ViewBag.Title = "添加试题";
+}
+
+<h4 style="font-family:'Microsoft YaHei'">添加新试题</h4>
+<form action="/Exampapers/PostSearchParam" method="post" style="font-family:'Microsoft YaHei'">
+    <div class="form-group">
+        <label class="control-label col-md-4" style="font-weight:bold">题型</label>
+        <div class="col-md-6">@Html.DropDownList("TypeID", null, htmlAttributes: new { @class = "form-control" })</div>
+
+        <label class="control-label col-md-4" style="font-weight:bold">知识点</label>
+        <div class="col-md-6">@Html.DropDownList("KnowledgeSiteID", null, htmlAttributes: new { @class = "form-control" })</div>
+    </div>
+    <input type="submit" value="查询" />
+</form>
+<br/><br/>
+
+<table class="table" style="font-family:'Microsoft YaHei'">
+    <tr>
+        <th>
+            @*@Html.DisplayNameFor(model => model.Content)*@
+            <label class="tdClass1" style="font-weight:bold">题干内容</label>
+        </th>
+        <th>
+            <label class="tdClass2" style="font-weight:bold">难度系数</label>
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td class="tdClass1">
+                @Html.Raw(@item.Content)
+            </td>
+            <td class="tdClass2">
+                @Html.DisplayFor(modelItem => item.Difficulty)
+            </td>
+            <td>
+                @Html.ActionLink("添加到试卷", "AddQuestion", new { questionID = item.QuestionID })
+            </td>
+        </tr>
+    }
+
+</table>

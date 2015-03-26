@@ -1,0 +1,78 @@
+﻿@model AutoTSForETongModel.Exampaper
+
+@{
+    ViewBag.Title = "查看试卷";
+}
+
+<h2>查看试卷</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Member.MemberName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Member.MemberName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject.SubjectName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject.SubjectName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaperTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaperTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UpdateTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UpdateTime)
+        </dd>
+
+    </dl>
+    @Html.ActionLink("添加新试题", "PreViewQuestion", new { subjectID = Model.SubjectID })
+    <div class="form-group">
+        @Html.LabelFor(model => model.ExamTime, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <label>@Model.ExamTime 分钟</label>
+            @Html.ValidationMessageFor(model => model.ExamTime, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @foreach (var type in Model.PaperExtraInfo)
+        {
+            int i = 1;
+            <div>@type.QuestionTypeTitle (每条：@type.QuestionTypeGrade 分)</div><br />
+            foreach (var item in Model.Questions.Where(o => o.QuestionType == type.QuestionType))
+            {
+                <div>@i.ToString() . @item.Content</div><br />
+                <div>__________________</div><br />
+                <div>参考答案：@item.Answer</div><br /><br />
+                @Html.ActionLink("删除", "RemoveQuestion", new { questionID = item.QuestionID })
+                i++;
+
+            }
+            i = 1;
+        }
+
+    </div>
+
+</div>
+<p>
+    @Html.ActionLink("保存为新试卷", "SavePape") <br/>
+    @Html.ActionLink("保存到本地","SaveToLocal") <br/>
+    @Html.ActionLink("返回", "Index")
+</p>

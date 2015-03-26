@@ -1,0 +1,13 @@
+﻿@*@(Html.Kendo().Menu()
+    .Name("BackStage")
+    .Items(items =>
+    {
+        items.Add().Text("用户管理").Enabled(true).Url("~/Members/Index");
+    })
+        .HtmlAttributes(new { id = "main-menu" })
+)*@
+<div class="pagination">
+    <ul>
+        <li class="active"><a href="~/Members/Index">用户管理</a></li>
+    </ul>
+</div>

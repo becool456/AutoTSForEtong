@@ -1,0 +1,20 @@
+﻿@if (TempData["Error"] != null && !string.IsNullOrEmpty(TempData["Error"].ToString()))
+{
+    <div class="ui-tiptext-container ui-tiptext-container-error" style="margin-bottom: 20px;">
+        <p class="ui-tiptext ui-tiptext-error">
+            <i class="ui-tiptext-icon iconfont" title="出错">警告：</i>
+            @TempData["Error"].ToString()。
+        </p>
+    </div>
+}
+
+@if (TempData["Message"] != null && !string.IsNullOrEmpty(TempData["Message"].ToString()))
+{
+    <div class="ui-tiptext-container ui-tiptext-container-message" style="margin-bottom: 20px;">
+        <p class="ui-tiptext ui-tiptext-message">
+            <i class="ui-tiptext-icon iconfont" title="提示">提示：</i>
+            @TempData["Message"].ToString()
+        </p>
+    </div>
+
+}

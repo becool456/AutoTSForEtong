@@ -1,0 +1,19 @@
+﻿<!--@(Html.Kendo().Menu()
+    .Name("_TeachMenu")
+    .Items(items =>
+    {
+        items.Add().Text("试卷管理").Enabled(true).Url("~/Exampapers/Index");
+
+        items.Add().Text("自动出卷").Enabled(true).Url("~/Exampapers/GetPaperDemand");
+
+        //items.Add().Text("日志信息").Enabled(true).Url("~/Log/DetailTemplate");
+    }).HtmlAttributes(new { id = "main-menu" })
+)-->
+
+
+<div class="pagination">
+    <ul>
+        <li class="active"><a href="~/Exampapers/Index">试卷管理</a></li>
+        <li class="active"><a href="~/Exampapers/GetPaperDemand">自动出卷</a></li>
+    </ul>
+</div> <!-- /pagination -->

@@ -1,0 +1,54 @@
+﻿@model AutoTSForETongModel.KnowledgeSite
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h4 style="font-family:'Microsoft YaHei'">添加知识点</h4>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.KnowledgeSiteName, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-3" style="font-weight:bold">知识点名</label>
+             <div>
+                @*@Html.EditorFor(model => model.KnowledgeSiteName, new { htmlAttributes = new { @class = "col-md-3" } })*@
+                <input class="k-textbox" id="KnowledgeSiteName" name="KnowledgeSiteName" required autofocus/>
+
+                @Html.ValidationMessageFor(model => model.KnowledgeSiteName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.SubjectID, "SubjectID", htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-3" style="font-weight:bold">科目</label>
+            <div>
+                @Html.DropDownList("SubjectID", null, htmlAttributes: new { @class = "form-control"})
+                @Html.ValidationMessageFor(model => model.SubjectID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        @*<div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>*@
+
+
+        <div style="white-space:nowrap;overflow:hidden;">
+            <input value="提交" class="btn btn-inverse" type="submit" style="width: 80px;">
+            <a href="/KnowledgeSites/Index"><input value="返回" class="btn btn-inverse" type="button" style="width:80px;"></a>
+        </div>
+    </div>
+}
+
+@*<div>
+    @Html.ActionLink("返回", "Index")
+</div>*@
+

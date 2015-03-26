@@ -1,0 +1,319 @@
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.dll.config
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.pdb
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\Antlr3.Runtime.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.SqlServer.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\Kendo.Mvc.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\Microsoft.Web.Infrastructure.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\Newtonsoft.Json.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\Ninject.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Helpers.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Mvc.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Optimization.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Razor.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Deployment.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Razor.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\WebGrease.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\Antlr3.Runtime.pdb
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.SqlServer.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\Kendo.Mvc.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\Newtonsoft.Json.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\Ninject.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Helpers.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Mvc.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Optimization.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Razor.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Deployment.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Razor.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\bg-BG\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\cs-CZ\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\da-DK\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\de-DE\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\es-ES\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\fr-FR\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\it-IT\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\nl-NL\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\pl-PL\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\pt-BR\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\pt-PT\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\ro-RO\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\ru-RU\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\sv-SE\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\tr-TR\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\uk-UA\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\zh-CN\Kendo.Mvc.resources.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.csprojResolveAssemblyReference.cache
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.pdb
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongImplOfData.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongModel.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongSysCore.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongDataFramework.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongImplOfData.pdb
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongModel.pdb
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongSysCore.pdb
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongDataFramework.pdb
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongTools.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongTools.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.dll.config
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\Antlr3.Runtime.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongDataFramework.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongImplOfData.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongModel.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongSysCore.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongTools.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.SqlServer.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\Kendo.Mvc.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\Newtonsoft.Json.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\Ninject.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Helpers.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Mvc.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Optimization.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Razor.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Razor.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\WebGrease.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongDataFramework.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongImplOfData.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongModel.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongSysCore.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongTools.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\Antlr3.Runtime.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.SqlServer.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\Kendo.Mvc.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\Newtonsoft.Json.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\Ninject.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Helpers.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Mvc.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Optimization.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Razor.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Razor.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\bg-BG\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\cs-CZ\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\da-DK\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\de-DE\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\es-ES\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\fr-FR\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\it-IT\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\nl-NL\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\pl-PL\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\pt-BR\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\pt-PT\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\ro-RO\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\ru-RU\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\sv-SE\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\tr-TR\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\uk-UA\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\zh-CN\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.csprojResolveAssemblyReference.cache
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\NinjectIOC.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\bin\NinjectIOC.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.dll.config
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Antlr3.Runtime.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongDataFramework.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongImplOfData.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongModel.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongSysCore.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongTools.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.SqlServer.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Kendo.Mvc.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Microsoft.Web.Infrastructure.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Newtonsoft.Json.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Ninject.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\NinjectIOC.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Helpers.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Mvc.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Optimization.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Razor.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Deployment.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Razor.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\WebGrease.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongDataFramework.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongImplOfData.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongModel.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongSysCore.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongTools.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\NinjectIOC.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Antlr3.Runtime.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.SqlServer.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Kendo.Mvc.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Newtonsoft.Json.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Ninject.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Helpers.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Mvc.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Optimization.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Razor.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Deployment.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Razor.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\bg-BG\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\cs-CZ\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\da-DK\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\de-DE\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\es-ES\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\fr-FR\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\it-IT\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\nl-NL\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\pl-PL\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\pt-BR\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\pt-PT\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\ro-RO\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\ru-RU\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\sv-SE\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\tr-TR\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\uk-UA\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\zh-CN\Kendo.Mvc.resources.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.csprojResolveAssemblyReference.cache
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtongUserCore.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtongUserCore.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.dll.config
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Antlr3.Runtime.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongDataFramework.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongImplOfData.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongModel.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongSysCore.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongTools.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtongUserCore.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.SqlServer.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Kendo.Mvc.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Newtonsoft.Json.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Ninject.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\NinjectIOC.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Helpers.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Mvc.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Optimization.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Razor.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Razor.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\WebGrease.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongDataFramework.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongImplOfData.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongModel.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongSysCore.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongTools.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtongUserCore.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\NinjectIOC.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Antlr3.Runtime.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.SqlServer.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Kendo.Mvc.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Newtonsoft.Json.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Ninject.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Helpers.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Mvc.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Optimization.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Razor.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Razor.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\bg-BG\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\cs-CZ\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\da-DK\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\de-DE\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\es-ES\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\fr-FR\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\it-IT\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\nl-NL\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\pl-PL\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\pt-BR\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\pt-PT\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\ro-RO\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\ru-RU\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\sv-SE\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\tr-TR\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\uk-UA\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\zh-CN\Kendo.Mvc.resources.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.csprojResolveAssemblyReference.cache
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.dll.config
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForEtong.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Antlr3.Runtime.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongDataFramework.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongImplOfData.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongModel.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongSysCore.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongTools.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongUserCore.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.SqlServer.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Kendo.Mvc.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Newtonsoft.Json.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Ninject.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\NinjectIOC.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Helpers.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Mvc.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Optimization.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Razor.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Razor.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\WebGrease.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongDataFramework.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongImplOfData.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongModel.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongSysCore.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongTools.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\AutoTSForETongUserCore.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\NinjectIOC.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Antlr3.Runtime.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\EntityFramework.SqlServer.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Kendo.Mvc.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Newtonsoft.Json.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\Ninject.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Helpers.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Mvc.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Optimization.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.Razor.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\System.Web.WebPages.Razor.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\bg-BG\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\cs-CZ\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\da-DK\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\de-DE\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\es-ES\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\fr-FR\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\it-IT\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\nl-NL\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\pl-PL\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\pt-BR\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\pt-PT\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\ro-RO\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\ru-RU\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\sv-SE\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\tr-TR\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\uk-UA\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\bin\zh-CN\Kendo.Mvc.resources.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.csprojResolveAssemblyReference.cache
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForEtong\obj\Debug\AutoTSForEtong.pdb

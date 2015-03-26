@@ -1,0 +1,55 @@
+﻿@model AutoTSForETongModel.Member
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+@*<script language="javascript">
+    function deleteConfirm() {
+        if (!confirm("确认删除？")) {
+            window.event.returnValue = false;
+        } else {
+            window.event.returnValue = true;
+        }
+    }
+</script>*@
+<center style="font-family:'Microsoft YaHei'">
+    <div>
+        <h3>删除用户</h3>
+        <hr />
+        <table style="font-size:larger">
+            <tr>
+                <td style="font-weight:bolder;">
+                    @Html.DisplayNameFor(model => model.MemberName)
+                </td>
+                <td>
+                    &nbsp;&nbsp;@Html.DisplayFor(model => model.MemberName)
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight:bolder;">
+                    @Html.DisplayNameFor(model => model.Password)
+                </td>
+                <td>
+                    &nbsp;&nbsp;@Html.DisplayFor(model => model.Password)
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight:bolder;">
+                    @Html.DisplayNameFor(model => model.Identity)
+                </td>
+                <td>
+                    &nbsp;&nbsp;@Html.DisplayFor(model => model.Identity)
+                </td>
+            </tr>
+        </table>
+        <br />
+
+            <div style="white-space:nowrap;overflow:hidden;text-align:center">
+                @*<input type="submit" value="删除" class="btn btn-inverse"  style="width:80px;" />*@
+                <a href="~/Members/DeleteConfirmed/@Model.MemberID" class="btn btn-inverse" style="width:80px;">删除</a>
+                <a href="/Members/Index"><input value="返回" class="btn btn-inverse" type="button" style="width:80px;"></a>
+            </div>
+    </div>
+
+</center>

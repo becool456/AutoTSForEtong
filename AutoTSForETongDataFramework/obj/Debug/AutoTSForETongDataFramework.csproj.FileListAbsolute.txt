@@ -1,0 +1,70 @@
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.dll.config
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.pdb
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongModel.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\Ninject.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongModel.pdb
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\Ninject.xml
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.csprojResolveAssemblyReference.cache
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.dll.config
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongModel.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\Ninject.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongModel.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\Ninject.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.csprojResolveAssemblyReference.cache
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.dll.config
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongModel.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.SqlServer.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\Ninject.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongModel.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.SqlServer.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\Ninject.xml
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.csprojResolveAssemblyReference.cache
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.dll.config
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongModel.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\Ninject.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongModel.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\Ninject.xml
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.csprojResolveAssemblyReference.cache
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.dll.config
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongDataFramework.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongModel.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\Ninject.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\AutoTSForETongModel.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\bin\Debug\Ninject.xml
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.csprojResolveAssemblyReference.cache
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongDataFramework\obj\Debug\AutoTSForETongDataFramework.pdb

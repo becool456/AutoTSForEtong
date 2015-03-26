@@ -1,0 +1,63 @@
+﻿<script>
+    jQuery(document).ready(function () {
+        jQuery("#editID").validationEngine();
+    });
+</script>
+@model AutoTSForETongModel.Member
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<form action="/Members/Edit/@Model.MemberID" method="post" id="editID">
+    @Html.AntiForgeryToken()
+
+    <center style="font-family:'Microsoft YaHei'">
+        <div class="form-horizontal">
+            <h3>编辑用户信息</h3>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.MemberID)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.MemberName, htmlAttributes: new { @class = "col-md-2" })
+                <div class="col-md-10">
+                    @*@Html.EditorFor(model => model.MemberName, new { htmlAttributes = new { @class = "form-control" } })*@
+                    <input class="k-textbox" id="MemberName" name="MemberName" value=@Model.MemberName data-validation-engine="validate[required,maxSize[20]]" />
+                    @Html.ValidationMessageFor(model => model.MemberName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "col-md-2" })
+                <div class="col-md-10">
+                    @*@Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })*@
+                    <input class="k-textbox" id="Password" name="Password" value=@Model.Password data-validation-engine="validate[required,minSize[1],maxSize[20]]" />
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Identity, htmlAttributes: new { @class = "col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("Identity", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Identity, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            @*<div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Save" class="btn btn-default" />
+                        </div>
+                    </div>
+                </div>*@
+
+            <div style="white-space:nowrap;overflow:hidden;text-align:center">
+                <input value="保存" class="btn btn-inverse" type="submit" style="width: 80px;">
+                <a href="/Members/Index"><input value="返回" class="btn btn-inverse" type="button" style="width:80px;"></a>
+            </div>
+
+        </div>
+    </center>
+</form>

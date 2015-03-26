@@ -1,0 +1,16 @@
+﻿@*@(Html.Kendo().Menu()
+    .Name("_StuMenu")
+    .Items(items =>
+    {
+        items.Add().Text("试题管理").Enabled(true).Url("~/Questions/Index");
+        
+    }).HtmlAttributes(new { id = "main-menu" })
+)*@
+
+<div class="pagination">
+    <ul>
+        <li class="active"><a href="~/Questions/Index">试题管理</a></li>
+        <li class="active"><a href="~/KnowledgeSites/Index">知识点管理</a></li>
+        @*<li class="active"><a href="~/QuestionTypes/Index">题型管理</a></li>*@
+    </ul>
+</div> <!-- /pagination -->

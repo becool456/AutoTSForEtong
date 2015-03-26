@@ -1,0 +1,82 @@
+﻿@model IEnumerable<AutoTSForETongModel.KnowledgeSite>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    .fontClass{
+        font-family:'Microsoft YaHei'
+    }
+</style>
+
+<script language="javascript">
+    function invalidConfirm() {
+        if (!confirm("确认禁用？")) {
+            window.event.returnValue = false;
+        } else {
+            window.event.returnValue = true;
+        }
+    }
+
+    function validConfirm() {
+        if (!confirm("确认启用？")) {
+            window.event.returnValue = false;
+        } else {
+            window.event.returnValue = true;
+        }
+    }
+</script>
+<p class="fontClass">
+    @Html.ActionLink("新建知识点", "Create")
+</p>
+<table class="table fontClass">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Subject.SubjectName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KnowledgeSiteName)
+        </th>
+        <th>
+            状态
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Subject.SubjectName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KnowledgeSiteName)
+        </td>
+        <td>
+            @if(item.IsDeleted == true)
+            {
+                <p>禁用中</p>
+            }
+            else
+            {
+                <p>正常</p>
+            }
+        </td>
+        <td>
+            @if (item.IsDeleted == true)
+            {
+                @*@Html.ActionLink("启用", "RollBack", new { id = item.KnowledgeSiteID })*@
+                <a href="/KnowledgeSites/RollBack/@item.KnowledgeSiteID" onclick="validConfirm()">启用</a>
+            }
+            else
+            {
+                @Html.ActionLink("编辑", "Edit", new { id=item.KnowledgeSiteID })<br/>
+                @*@Html.ActionLink("禁用", "Delete", new { id=item.KnowledgeSiteID })*@
+                <a href="/KnowledgeSites/DeleteConfirmed/@item.KnowledgeSiteID" onclick="invalidConfirm()">禁用</a>
+            }
+            
+        </td>
+    </tr>
+}
+
+</table>

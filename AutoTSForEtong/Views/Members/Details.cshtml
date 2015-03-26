@@ -1,0 +1,46 @@
+﻿@model AutoTSForETongModel.Member
+
+@{
+    ViewBag.Title = "Details";
+}
+<style>
+    .buttonclass {
+        width: 80px;
+    }
+</style>
+<center style="font-family:'Microsoft YaHei'">
+    <h3>用户信息</h3>
+    <hr />
+
+    <table style="font-size:larger">
+        <tr>
+            <td style="font-weight:bolder;">
+                @Html.DisplayNameFor(model => model.MemberName)
+            </td>
+            <td>
+                &nbsp;&nbsp;@Html.DisplayFor(model => model.MemberName)
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight:bolder;">
+                @Html.DisplayNameFor(model => model.Password)
+            </td>
+            <td>
+                &nbsp;&nbsp;@Html.DisplayFor(model => model.Password)
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight:bolder;">
+                @Html.DisplayNameFor(model => model.Identity)
+            </td>
+            <td>
+                &nbsp;&nbsp;@Html.DisplayFor(model => model.Identity)
+            </td>
+        </tr>
+    </table>
+    <br />
+    <div>
+        @Html.ActionLink("编辑", "Edit", new { id = Model.MemberID }, new { @class = "btn btn-inverse buttonclass" })
+        <a href="/Members/Index"><input value="返回" class="btn btn-inverse" type="button" style="width:80px;"></a>
+    </div>
+</center>

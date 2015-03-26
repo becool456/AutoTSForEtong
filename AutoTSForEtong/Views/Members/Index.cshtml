@@ -1,0 +1,44 @@
+﻿@model IEnumerable<AutoTSForETongModel.Member>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<p>
+    @Html.ActionLink("添加新成员", "Create")
+</p>
+<table class="table">
+    <tr style="font-family:'Microsoft YaHei';font-size:larger">
+        <th>
+            @Html.DisplayNameFor(model => model.MemberName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Identity)
+        </th>
+        <th>操作</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td style="font-family:'Microsoft YaHei'">
+                @Html.DisplayFor(modelItem => item.MemberName)
+            </td>
+            <td style="font-family:'Microsoft YaHei'">
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td style="font-family:'Microsoft YaHei'">
+                @Html.DisplayFor(modelItem => item.Identity)
+            </td>
+            <td style="font-family:'Microsoft YaHei'">
+                @Html.ActionLink("编辑", "Edit", new { id = item.MemberID }) |
+                @Html.ActionLink("查看", "Details", new { id = item.MemberID }) |
+                @Html.ActionLink("删除", "Delete", new { id = item.MemberID })
+            </td>
+        </tr>
+    }
+
+</table>

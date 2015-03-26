@@ -1,0 +1,269 @@
+﻿<script>
+    jQuery(document).ready(function () {
+        jQuery("#formID").validationEngine();
+    });
+</script>
+
+@model AutoTSForETongSysCore.Model.PaperDemand
+
+@{
+    ViewBag.Title = "GetPaperDemand";
+}
+
+
+<form action="/Exampapers/GetPaperDemand" method="post" id="formID">
+    <div style="font-family:'Microsoft YaHei'">
+        <h4 class="lead">请填写试卷需求</h4>
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary()
+        <div class="col-xs-5 col-sm-5 sidebar-offcanvas" id="sidebar" role="navigation" style="float:left">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label style="float:left" class="col-md-2">科目</label>
+                    <div class="col-md-6" style="display:inline">
+                        @Html.DropDownList("Subjects", null, htmlAttributes: new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+
+            <!--知识点-->
+            <div class="form-group" id="drop-change-event">
+                @foreach (var item in ViewBag.KnowledgeSites)
+                {
+
+                    <label><input type="checkbox" value="@item.KnowledgeSiteID" name="knowledgeSites" data-validation-engine="validate[minCheckbox[1]]">@item.KnowledgeSiteName</label><br />
+                }
+            </div>
+
+        </div><!--/.sidebar-offcanvas-->
+
+        <!--当前总分-->
+        @*<div class="form-group">
+            <label class="control-label col-md-2">当前总分</label>
+            <label class="control-label col-md-1" id="totalScore">0</label>
+        </div>*@
+        <div>
+            <label class="col-md-2">当前总分</label>
+            <label id="totalScore">0</label>
+        </div>
+
+        <div class="row row-offcanvas row-offcanvas-right" style="margin-left: auto; margin-right: auto;">
+            @*@Html.ValidationSummary(true, "", new { @class = "text-danger" })*@
+            <div class="col-xs-12 col-sm-7">
+                <div class="form-horizontal">
+                    <!--试卷标题-->
+                    @*<div class="form-group">
+                        <label class="control-label col-md-2" for="PaperTitle">试卷标题</label>
+                        <div class="col-md-4">
+                            <input class="k-textbox" id="PaperTitle" name="PaperTitle" value="" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="PaperTitle" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>*@
+                    <div class="form-group">
+                        <label class="col-md-4" for="PaperTitle">试卷标题</label>
+                        <div class="col-md-6">
+                            <input class="form-control k-textbox" id="PaperTitle" name="PaperTitle" value="" data-validation-engine="validate[required,maxSize[50]]" />
+                        </div>
+                    </div>
+
+                    <!--考试时间-->
+                    @*<div class="form-group">
+                        <label class="control-label col-md-2" for="ExamTime">考试时间</label>
+                        <div class="col-md-4">
+                            <input class="form-control text-box single-line" data-val="true" data-val-number="The field 考试时间 must be a number." data-val-required="考试时间 字段是必需的。" id="ExamTime" name="ExamTime" type="number" value="@Model.ExamTime" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="ExamTime" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>*@
+                    <div class="form-group">
+                        <label class="col-md-4" for="ExamTime">考试时间</label>
+                        <div class="col-md-6">
+                            <input class="form-control text-box" id="examtime" name="ExamTime" value="@Model.ExamTime" data-validation-engine="validate[required,min[1],max[500],custom[integer]]" />
+                            @*<span class="field-validation-valid text-danger" data-valmsg-for="ExamTime" data-valmsg-replace="true"></span>*@
+                        </div> <span style="height: 30px; line-height: 30px;">min</span>
+                    </div>
+
+                    <!--难题比例-->
+                    @*<div class="form-group">
+                        <label class="control-label col-md-2" for="Hardage">难题比例</label>
+                        <div class="col-md-4">
+                            <input class="form-control text-box single-line" data-val="true" data-val-number="The field 难题比例 must be a number." data-val-range="字段 难题比例 必须在 0 和 100 之间。" data-val-range-max="100" data-val-range-min="0" data-val-required="难题比例 字段是必需的。" id="Hardage" name="Hardage" type="number" value="@Model.Hardage" /><p>%</p>
+                            <span class="field-validation-valid text-danger" data-valmsg-for="Hardage" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>*@
+                    <div class="form-group">
+                        <label class="col-md-4" for="Hardage">难题比例</label>
+                        <div class="col-md-6">
+                            <input class="form-control text-box" id="Hardage" name="Hardage" value="@Model.Hardage" data-validation-engine="validate[required,min[0],max[100],custom[number]]" />
+                            @*<span class="field-validation-valid text-danger" data-valmsg-for="Hardage" data-valmsg-replace="true"></span>*@
+                        </div><span style="height: 30px; line-height: 30px;">%</span>
+                    </div>
+
+                    <!--中等题比例-->
+                    @*<div class="form-group">
+                        <label class="control-label col-md-2" for="Middleage">中等题比例</label>
+                        <div class="col-md-4">
+                            <input class="form-control text-box single-line" data-val="true" data-val-number="The field 中等题比例 must be a number." data-val-required="中等题比例 字段是必需的。" id="Middleage" name="Middleage" type="number" value="@Model.Middleage" /><p>%</p>
+                            <span class="field-validation-valid text-danger" data-valmsg-for="Middleage" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>*@
+                    <div class="form-group">
+                        <label class="col-md-4" for="Middleage">中等题比例</label>
+                        <div class="col-md-6">
+                            <input class="form-control text-box" id="Middleage" name="Middleage" value="@Model.Middleage" data-validation-engine="validate[required,min[0],max[100],custom[number]]" />
+                            @*<span class="field-validation-valid text-danger" data-valmsg-for="Middleage" data-valmsg-replace="true"></span>*@
+                        </div><span style="height: 30px; line-height: 30px;">%</span>
+                    </div>
+
+                    <!--简单题比例-->
+                    @*<div class="form-group">
+                        <label class="control-label col-md-2" for="Easyage">简单题比例</label>
+                        <div class="col-md-4">
+                            <input class="form-control text-box single-line" data-val="true" data-val-number="The field 简单题比例 must be a number." data-val-required="简单题比例 字段是必需的。" id="Easyage" name="Easyage" type="number" value="@Model.Easyage" /><p>%</p>
+                            <span class="field-validation-valid text-danger" data-valmsg-for="Easyage" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>*@
+                    <div class="form-group">
+                        <label class="col-md-4" for="Easyage">简单题比例</label>
+                        <div class="col-md-6">
+                            <label class="form-control text-box" id="Easyage" name="Easyage" type="number" value="@Model.Easyage"/>
+                            @*<span class="field-validation-valid text-danger" data-valmsg-for="Easyage" data-valmsg-replace="true"></span>*@
+                        </div><span style="height: 30px; line-height: 30px;">%</span>
+                    </div>
+
+                    <!--选择题-->
+                    @*<div class="form-group">
+                        <label class="control-label col-md-2" for="SelectionNum">选择题题量</label>
+                        <div class="col-md-4">
+                            <input class="form-control text-box single-line" data-val="true" data-val-number="The field 选择题题量 must be a number." data-val-required="选择题题量 字段是必需的。" id="SelectionNum" name="SelectionNum" type="number" value="@Model.SelectionNum" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="SelectionNum" data-valmsg-replace="true"></span>
+                        </div>
+
+                        <label class="control-label col-md-2" for="SelectionScore">选择题分值</label>
+                        <div class="col-md-4">
+                            <input class="form-control text-box single-line" data-val="true" data-val-number="The field 选择题分值 must be a number." data-val-required="选择题分值 字段是必需的。" id="SelectionScore" name="SelectionScore" type="number" value="@Model.SelectionScore" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="SelectionScore" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>*@
+                    <div class="form-group">
+                        <label for="SelectionNum" style="float:left">&nbsp;&nbsp;&nbsp;选择题量</label>
+                        <div class="col-md-4">
+                            <input class="form-control text-box col-md-3" id="SelectionNum" name="SelectionNum" type="number" value="@Model.SelectionNum" data-validation-engine="validate[required,min[0],max[100],custom[integer]]" />
+                            @*<span class="field-validation-valid text-danger" data-valmsg-for="SelectionNum" data-valmsg-replace="true"></span>*@
+                        </div>
+
+                        <label for="SelectionScore" style="float:left">选择分值</label>
+                        <div class="col-md-3">
+                            <input class="form-control text-box" id="SelectionScore" name="SelectionScore" type="number" value="@Model.SelectionScore" data-validation-engine="validate[required,min[1],max[30],custom[number]]" />
+                            @*<span class="field-validation-valid text-danger" data-valmsg-for="SelectionScore" data-valmsg-replace="true"></span>*@
+                        </div>
+                    </div>
+
+                    <!--填空题-->
+                    @*<div class="form-group">
+                        <label class="control-label col-md-2" for="InputionNum">填空题题量</label>
+                        <div class="col-md-4">
+                            <input class="form-control text-box single-line" data-val="true" data-val-number="The field 填空题题量 must be a number." data-val-required="填空题题量 字段是必需的。" id="InputionNum" name="InputionNum" type="number" value="@Model.InputionNum" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="InputionNum" data-valmsg-replace="true"></span>
+                        </div>
+
+                        <label class="control-label col-md-2" for="InputionScore">填空题分值</label>
+                        <div class="col-md-4">
+                            <input class="form-control text-box single-line" data-val="true" data-val-number="The field 填空题分值 must be a number." data-val-required="填空题分值 字段是必需的。" id="InputionScore" name="InputionScore" type="number" value="@Model.InputionScore" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="InputionScore" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>*@
+                    <div class="form-group">
+                        <label for="InputionNum" style="float:left">&nbsp;&nbsp;&nbsp;填空题量</label>
+                        <div class="col-md-4">
+                            <input class="form-control text-box" id="InputionNum" name="InputionNum" type="number" value="@Model.InputionNum" data-validation-engine="validate[required,min[0],max[100],custom[integer]]" />
+                            @*<span class="field-validation-valid text-danger" data-valmsg-for="InputionNum" data-valmsg-replace="true"></span>*@
+                        </div>
+
+                        <label for="InputionScore" style="float:left">填空分值</label>
+                        <div class="col-md-3">
+                            <input class="form-control text-box" id="InputionScore" name="InputionScore" type="number" value="@Model.InputionScore" data-validation-engine="validate[required,min[1],max[30],custom[number]]" />
+                            @*<span class="field-validation-valid text-danger" data-valmsg-for="InputionScore" data-valmsg-replace="true"></span>*@
+                        </div>
+                    </div>
+
+                    <!--解答题-->
+                    @*<div class="form-group">
+                        <label class="control-label col-md-2" for="AnswerNum">解答题题量</label>
+                        <div class="col-md-4">
+                            <input class="form-control text-box single-line" data-val="true" data-val-number="The field 解答题题量 must be a number." data-val-required="解答题题量 字段是必需的。" id="AnswerNum" name="AnswerNum" type="number" value="@Model.AnswerNum" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="AnswerNum" data-valmsg-replace="true"></span>
+                        </div>
+
+                        <label class="control-label col-md-2" for="AnswerScore">解答题分值</label>
+                        <div class="col-md-4">
+                            <input class="form-control text-box single-line" data-val="true" data-val-number="The field 解答题分值 must be a number." data-val-required="解答题分值 字段是必需的。" id="AnswerScore" name="AnswerScore" type="number" value="@Model.AnswerScore" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="AnswerScore" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>*@
+                    <div class="form-group">
+                        <label for="AnswerNum" style="float:left">&nbsp;&nbsp;&nbsp;解答题量</label>
+                        <div class="col-md-4">
+                            <input class="form-control text-box" id="AnswerNum" name="AnswerNum" type="number" value="@Model.AnswerNum" data-validation-engine="validate[required,min[0],max[100],custom[integer]]" />
+                            @*<span class="field-validation-valid text-danger" data-valmsg-for="AnswerNum" data-valmsg-replace="true"></span>*@
+                        </div>
+
+                        <label for="AnswerScore" style="float:left">解答分值</label>
+                        <div class="col-md-3">
+                            <input class="form-control text-box" id="AnswerScore" name="AnswerScore" type="number" value="@Model.AnswerScore" data-validation-engine="validate[required,min[1],max[30],custom[number]]" />
+                            @*<span class="field-validation-valid text-danger" data-valmsg-for="AnswerScore" data-valmsg-replace="true"></span>*@
+                        </div>
+                    </div>
+
+
+                </div>
+            </div><!--/.col-xs-12.col-sm-9-->
+
+        </div><!--/row-->
+        <!--创建按钮-->
+        <input value="创建" class="btn btn-block btn-lg btn-inverse" type="submit" style="width:80px;margin-left:auto;margin-right:auto">
+</div>
+
+</form>
+
+
+<script>
+    $("#InputionNum,#SelectionNum,#AnswerNum,#InputionScore,#AnswerScore,#SelectionScore").change(function () {
+        var inputNum = parseInt($("#InputionNum").val());
+        var inputScore = parseInt($("#InputionScore").val());
+        var selectionNum = parseInt($("#SelectionNum").val());
+        var selectionScore = parseInt($("#SelectionScore").val());
+        var answerNum = parseInt($("#AnswerNum").val());
+        var answerScore = parseInt($("#AnswerScore").val());
+        var totalScore = inputNum * inputScore + selectionNum * selectionScore + answerNum * answerScore;
+        $("#totalScore").text(totalScore.toString());
+    })
+    $("#Hardage,#Middleage").change(function () {
+        var hard = parseInt($("#Hardage").val());
+        var medium = parseInt($("#Middleage").val());
+        var easy = 100 - hard - medium;
+        if (easy >= 0) {
+            $("#Easyage").text(easy.toString());
+        } else {
+            $("#Easyage").text("比例错误！");
+        }
+    })
+</script>
+
+<script>
+    $("#Subjects").change(function () {
+        var index = $("#Subjects").val();
+        console.log("hello")
+        var request = 'GetKnowledgeSites/';
+        $.getJSON(request, { subjectId: index },  function (data) {
+            //var dataObj = eval("(" + data + ")");//转换为json对象
+            $("#drop-change-event").empty();
+            console.log("getin")
+            $.each(data,function (idx, item) {
+                var html = "<label><input type='checkbox' value='" + item.value + "' name= 'knowledgeSites' data-validation-engine='validate[minCheckbox[1]]'>" + item.key + "</label><br />";
+                $("#drop-change-event").append(html);
+            })
+        })
+        
+    })
+</script>
+

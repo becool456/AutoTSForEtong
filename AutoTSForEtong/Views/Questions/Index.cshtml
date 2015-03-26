@@ -1,0 +1,216 @@
+﻿<style>
+    .tdClass1 {
+        width: 550px;
+    }
+
+    .tdClass2 {
+        width: 90px;
+    }
+    .tdClass3{
+        width:100px;
+    }
+</style>
+<script language="javascript">
+    function invalidConfirm() {
+        if (!confirm("确认禁用？")) {
+            window.event.returnValue = false;
+        } else {
+            window.event.returnValue = true;
+        }
+    }
+
+    function validConfirm() {
+        if (!confirm("确认启用？")) {
+            window.event.returnValue = false;
+        } else {
+            window.event.returnValue = true;
+        }
+    }
+</script>
+@model IEnumerable<AutoTSForETongModel.Question>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div style="font-family:'Microsoft YaHei'">
+    <h4 class="lead">试题管理</h4>
+
+    <p>
+        @Html.ActionLink("添加新试题", "Create")
+    </p>
+
+    <form action="/Questions/PostSearchParam" method="post">
+        <p>
+            <label class="control-label col-md-1" style="font-weight:bold" for="categories">科目</label>
+            @*<label for="categories">&nbsp;&nbsp;科目&nbsp;&nbsp;</label>*@
+            @(Html.Kendo().DropDownList()
+              .Name("subjects")
+              .HtmlAttributes(new { style = "width:300px" })
+
+              .DataTextField("SubjectName")
+              .DataValueField("SubjectID")
+              .DataSource(source =>
+              {
+                  source.Read(read =>
+                  {
+                      read.Action("GetAllSubjects", "Questions");
+                  });
+              })
+            )
+        </p>
+        <p>
+            <label class="control-label col-md-1" style="font-weight:bold" for="products">知识点</label>
+            @*<label for="products">知识点</label>*@
+            @(Html.Kendo().DropDownList()
+              .Name("KnowledgeSiteID")
+              .HtmlAttributes(new { style = "width:300px" })
+              .DataTextField("KnowledgeSiteName")
+              .DataValueField("KnowledgeSiteID")
+              .DataSource(source =>
+              {
+                  source.Read(read =>
+                  {
+                      read.Action("GetKnowlegeSites", "Questions")
+                          .Data("filterProducts");
+                  })
+                  .ServerFiltering(true);
+              })
+              .Enable(false)
+              .AutoBind(false)
+              .CascadeFrom("subjects")
+            )
+            <div id="errormessage"></div>
+        </p>
+        <p>
+            <label class="control-label col-md-1" style="font-weight:bold" for="categories">题型</label>
+            @*<label for="categories">&nbsp;&nbsp;题型&nbsp;&nbsp;</label>*@
+            @(Html.Kendo().DropDownList()
+              .Name("QuestionTypeID")
+              .HtmlAttributes(new { style = "width:300px" })
+              .DataTextField("TypeName")
+              .DataValueField("TypeID")
+              .DataSource(source =>
+              {
+                  source.Read(read =>
+                  {
+                      read.Action("GetAllQuestionType", "Questions");
+                  });
+              })
+            )
+        </p>
+        <script>
+            function filterProducts() {
+                return {
+                    subjects: $("#subjects").val()
+                };
+            }
+
+
+        </script>
+
+        <input type="submit" value="查询" id="search" class="btn btn-block btn-lg btn-inverse" style="width: 80px;" />
+        <br />
+    </form>
+
+    @if (ViewBag.FindResult == true)
+    {
+        <table class="table">
+            <tr>
+                <th class="tdClass1">
+                    @Html.DisplayNameFor(model => model.Content)
+                </th>
+                <th class="tdClass2">
+                    @Html.DisplayNameFor(model => model.Difficulty)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AddTime)
+                </th>
+                <th class="tdClass3">
+                    状态
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="tdClass1">
+                        @Html.Raw(@item.Content)
+                    </td>
+                    <td class="tdClass2">
+                        @Html.DisplayFor(modelItem => item.Difficulty)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AddTime)
+                    </td>
+                    <td class="tdClass3">
+                        @if (item.IsDeleted == true)
+                        {
+                            <p>禁用中</p>
+                        }
+                        else
+                        {
+                            <p>启用中</p>
+                        }
+                    </td>
+                    <td>             
+                        @if (item.IsDeleted == true)
+                        {
+                            @*@Html.ActionLink("启用", "RollBack", new { id = item.QuestionID })*@
+                            <a href="/Questions/RollBack/@item.QuestionID" onclick="validConfirm()">启用</a>
+                        }
+                        else
+                        {
+                            @Html.ActionLink("编辑", "Edit", new { id = item.QuestionID }) 
+                            @*@Html.ActionLink("禁用", "Delete", new { id = item.QuestionID })*@
+                            <a href="/Questions/DeleteConfirmed/@item.QuestionID" onclick="invalidConfirm()">禁用</a>
+
+                        }
+
+                    </td>
+                </tr>
+            }
+        </table>
+    }
+
+</div>
+<style scoped>
+    .demo-section {
+        width: 460px;
+        padding: 30px;
+    }
+
+        .demo-section h2 {
+            text-transform: uppercase;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .demo-section label {
+            display: inline-block;
+            width: 120px;
+            padding-right: 5px;
+            text-align: right;
+        }
+
+        .demo-section .k-button {
+            margin: 20px 0 0 125px;
+        }
+
+    .k-readonly {
+        color: gray;
+    }
+</style>
+<script type="text/javascript">
+    $(function () {
+        $("#search").bind("click", function (event) {
+            var knowledgesite = $("#KnowledgeSiteID").val(); //获取知识点
+            if (knowledgesite == "请选择知识点") {
+                $("#errormessage").html("<p>知识点条件尚未选择</p>");
+                //event.preventDefault(); //阻止默认行为
+                return false;
+            }
+        })
+    })
+</script>

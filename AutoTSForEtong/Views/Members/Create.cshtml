@@ -1,0 +1,84 @@
+﻿<script>
+    jQuery(document).ready(function () {
+        jQuery("#createID").validationEngine();
+    });
+</script>
+
+@model AutoTSForETongModel.Member
+
+@{
+    ViewBag.Title = "新建用户";
+}
+
+@*<form id="createID">*@
+<form action="/Members/Create" method="post" id="createID">
+        @Html.AntiForgeryToken()
+        <center style="font-family:'Microsoft YaHei'">
+            <div class="form-horizontal">
+    <h3>添加用户</h3>
+    <hr />
+    <div class="form-group">
+        <label class="col-md-2 " for="MemberName">姓名</label>
+        <div class="col-md-8">
+            <input class="k-textbox" id="MemberName" name="MemberName" type="text" data-validation-engine="validate[required,maxSize[20]]" />
+            @if (ViewBag.Error != null)
+            {
+                <div>@ViewBag.Error</div>
+            }
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label class="col-md-2" for="Password">密码</label>
+        <div class="col-md-8">
+            <input class="k-textbox" id="Password" name="Password" type="password" data-validation-engine="validate[required,minSize[1],maxSize[20]]" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-md-2" for="Identity">身份</label>
+        <div class="col-md-8">
+            @Html.DropDownList("Identity", null, htmlAttributes: new { @class = "form-control" })
+            @*<input class="k-textbox" id="Identity" name="Identity" data-validation-engine="validate[required]" />*@
+        </div>
+    </div>
+
+    @if (Model.Identity == "教师" || Model.Identity == "")
+    {
+        <div class="form-group" id="selectSubject">
+            &nbsp;&nbsp;<label>选择该成员对应科目:</label><br>
+            <pre style="text-align:left">
+                @foreach (var item in ViewBag.Subjects)
+                {
+                    string str = "  ";
+                    @str<label><input type="checkbox" value="@item.SubjectID" name="subjects" data-validation-engine="validate[minCheckbox[1]]">@item.SubjectName</label>
+                }
+            </pre>
+        </div>
+    }
+                
+           
+        
+
+        <div style="white-space:nowrap;overflow:hidden;text-align:center">
+            <input value="创建" class="btn btn-inverse" type="submit" style="width: 80px;" onclick="return checkSelect()">
+            <a href="/Members/Index"><input value="返回" class="btn btn-inverse" type="button" style="width:80px;"></a>
+        </div>
+        </div>
+        </center>
+</form>
+
+<script>
+    $("#Identity").change(function () {
+        var identity = $("#Identity").val();
+        if(identity.toString() != "教师")
+        {
+            $("#selectSubject").hide();
+        }
+        else
+        {
+            $("#selectSubject").show();
+        }
+
+    })
+</script>

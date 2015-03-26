@@ -1,0 +1,24 @@
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongModel\bin\Debug\AutoTSForETongModel.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongModel\bin\Debug\AutoTSForETongModel.pdb
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongModel\obj\Debug\AutoTSForETongModel.dll
+D:\My Practise on MVC4\AutoTSForEtong\AutoTSForETongModel\obj\Debug\AutoTSForETongModel.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongModel\bin\Debug\AutoTSForETongModel.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongModel\bin\Debug\AutoTSForETongModel.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongModel\obj\Debug\AutoTSForETongModel.csprojResolveAssemblyReference.cache
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongModel\obj\Debug\AutoTSForETongModel.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForETongModel\obj\Debug\AutoTSForETongModel.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\bin\Debug\AutoTSForETongModel.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\bin\Debug\AutoTSForETongModel.pdb
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\obj\Debug\AutoTSForETongModel.csprojResolveAssemblyReference.cache
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\obj\Debug\AutoTSForETongModel.dll
+F:\软件工程\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\obj\Debug\AutoTSForETongModel.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\bin\Debug\AutoTSForETongModel.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\bin\Debug\AutoTSForETongModel.pdb
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\obj\Debug\AutoTSForETongModel.csprojResolveAssemblyReference.cache
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\obj\Debug\AutoTSForETongModel.dll
+C:\Users\Simon\Desktop\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\obj\Debug\AutoTSForETongModel.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\bin\Debug\AutoTSForETongModel.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\bin\Debug\AutoTSForETongModel.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\obj\Debug\AutoTSForETongModel.dll
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\obj\Debug\AutoTSForETongModel.pdb
+C:\Users\Simon\Documents\Visual Studio 2013\Projects\AutoTSForEtong\AutoTSForEtong\AutoTSForETongModel\obj\Debug\AutoTSForETongModel.csprojResolveAssemblyReference.cache

@@ -1,0 +1,38 @@
+﻿@model AutoTSForETongModel.KnowledgeSite
+
+@{
+    ViewBag.Title = "禁用知识点";
+}
+
+
+<h5>确认禁用知识点</h5>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject.SubjectName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject.SubjectName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KnowledgeSiteName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KnowledgeSiteName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="禁用" class="btn btn-default" /> |
+            @Html.ActionLink("返回", "Index")
+        </div>
+    }
+</div>

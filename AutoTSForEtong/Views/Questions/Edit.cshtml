@@ -1,0 +1,138 @@
+﻿@model AutoTSForETongModel.Question
+
+@{
+    ViewBag.Title = "编辑试题";
+}
+
+<script>
+    jQuery(document).ready(function () {
+        jQuery("#formID").validationEngine();
+    });
+</script>
+<h4>编辑试题</h4>
+<form action="/Questions/Edit/@Model.QuestionID" method="post" id="formID">
+    @*@using (Html.BeginForm())
+    {*@
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.QuestionID)
+            @Html.HiddenFor(model => model.AddTime)
+            <div class="form-group">
+                <label class=" col-md-4" style="font-weight:bold" for="categories">题型</label>
+                @*<label for="categories">&nbsp;&nbsp;题型&nbsp;&nbsp;</label>*@
+                @(Html.Kendo().DropDownList()
+              .Name("QuestionTypeID")
+              .HtmlAttributes(new { style = "width:100px" })
+              .DataTextField("TypeName")
+              .DataValueField("TypeID")
+              .DataSource(source =>
+              {
+                  source.Read(read =>
+                  {
+                      read.Action("GetAllQuestionType", "Questions");
+                  });
+              })
+                )
+            </div>
+
+            <div class="form-group">
+                @*@Html.LabelFor(model => model.Content, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <label class=" col-md-4" style="font-weight:bold">题干内容</label>
+                <div>
+                    <textarea id="Content" name="Content" data-validation-engine="validate[required]">@Html.Raw(Model.Content)</textarea>
+                    @Html.ValidationMessageFor(model => model.Content, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @*@Html.LabelFor(model => model.Answer, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <label class=" col-md-4" style="font-weight:bold">参考答案</label>
+                <div>
+                    <textarea id="Answer" name="Answer" data-validation-engine="validate[required]">@Model.Answer</textarea>
+                    @Html.ValidationMessageFor(model => model.Answer, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @*@Html.LabelFor(model => model.Difficulty, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <label class=" col-md-4" style="font-weight:bold">难度系数</label>
+                <div>
+                    @*@Html.EditorFor(model => model.Difficulty, new { htmlAttributes = new { @class = "col-md-2" } })*@
+                    <input class="col-md-2 text-box single-line" id="Difficulty" name="Difficulty" type="number" value=@Model.Difficulty data-validation-engine="validate[required,custom[number],min[1],max[3]]" />
+
+                    @Html.ValidationMessageFor(model => model.Difficulty, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class=" col-md-4" style="font-weight:bold">科目</label>
+                @(Html.Kendo().DropDownList()
+              .Name("subjects")
+              .HtmlAttributes(new { style = "width:200px" })
+
+              .DataTextField("SubjectName")
+              .DataValueField("SubjectID")
+              .DataSource(source =>
+              {
+                  source.Read(read =>
+                  {
+                      read.Action("GetAllSubjects", "Questions");
+                  });
+              })
+                )
+            </div>
+
+            <div class="form-group">
+                <label class=" col-md-4" style="font-weight:bold">知识点</label>
+                @(Html.Kendo().DropDownList()
+              .Name("KnowledgeSiteID")
+              .HtmlAttributes(new { style = "width:200px" })
+              .DataTextField("KnowledgeSiteName")
+              .DataValueField("KnowledgeSiteID")
+              .DataSource(source =>
+              {
+                  source.Read(read =>
+                  {
+                      read.Action("GetKnowlegeSites", "Questions")
+                          .Data("filterProducts");
+                  })
+                  .ServerFiltering(true);
+              })
+              .Enable(false)
+              .AutoBind(false)
+              .CascadeFrom("subjects")
+                )
+                <div id="errormessage"></div>
+            </div>
+
+            @*<div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="提交修改" class="btn btn-default" />
+                    </div>
+                </div>*@
+
+            <div style="white-space:nowrap;overflow:hidden;">
+                <input value="保存" class="btn btn-inverse" type="submit" style="width: 80px;">
+                <a href="/Questions/Index"><input value="返回" class="btn btn-inverse" type="button" style="width:80px;"></a>
+            </div>
+        </div>
+    @*}*@
+    </form>
+
+    @*<div>
+            @Html.ActionLink("返回", "Index")
+        </div>*@
+
+
+    <script>
+        function filterProducts() {
+            return {
+                subjects: $("#subjects").val()
+            };
+        }
+
+
+    </script>
